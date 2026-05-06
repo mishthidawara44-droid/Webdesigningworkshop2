@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>experiment9</title>
+  </head>
+  <body>
+    <script type="module" src="/src/app.jsx"></script>
+    <div class="container">
+  <div class="card">
+    <h2>Registration Form</h2>
+
+    <form id="form">
+      <input type="text" id="name" placeholder="Enter Name" required>
+      <input type="email" id="email" placeholder="Enter Email" required>
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="successMsg" class="success" style="display:none;">
+      Registration Successful!
+    </p>
+
+    <div id="userList"></div>
+  </div>
+</div>
+  </body>
+</html>
